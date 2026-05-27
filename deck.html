@@ -645,6 +645,7 @@
     "Big Stat — 0 Bytes. Die Zahl landen lassen. Zwei Sekunden Pause. Dann den Side-Text als Beweis.",
     "Agent-Anatomie — drei Bausteine: Capabilities (was er kann), Plugins (woran er hängt), Persona (wer er ist). Knappe Karten, jede mit einem Satz.",
     "Plugin-Struktur — drei Typen: Channels, Integrationen, Agent-Pakete. Beliebig kombinierbar. Plugin-SDK einmal erwähnen: in TypeScript schreibbar.",
+    "Builder — DER architektonische USP. Klassische Skill-Dateien (Claude Skills, GPT Custom Instructions) sind Prompt-Empfehlungen: das Modell entscheidet, ob es sich erinnert. omadia generiert aus der Skill-Definition echten TypeScript-Code, der als getyptes Tool aufgerufen wird. Pointe: 'Vom Prompt zur Werkbank — vom Wunschdenken zum Werkzeug.'",
     "Knowledge Graph — strukturierte Wissensbasis, kein RAG-Dokumentenstapel. Drei Karten: Strukturiert (Entitäten + Relationen), Cross-System (verbindet Confluence + ERP + Mail), Agent-Aware (jeder Agent sieht nur seinen erlaubten Ausschnitt). Pointe: 'Wissen ist ein Graph, kein Stapel PDFs.'",
     "Kemia — Quality-Layer für Agent-Outputs. Drei Bausteine: Quality-Guard (Verifikation vor Auslieferung), Snapshots (jeder Turn replayable), Bundle-Export (fertige Agenten portierbar). Pointe: 'Was sicherstellt, dass der Agent nicht halluziniert.'",
     "Routinen + UI — drei Karten: Routinen (Cron-Trigger), Adaptive Cards (Agent rendert UI), Approval-Flows (Composition). Pointe: 'Agenten kommen zu dir, du gehst nicht zu ihnen.' Beispiel: Freitag 16 Uhr Wochenreport-Card mit 'Freigeben'-Button in Teams.",
@@ -720,7 +721,7 @@
           <span class="num">05</span>
           <div>
             <div class="item-title">Unter der Haube</div>
-            <div class="item-sub">Architektur, Wissen, Qualität, Routinen, Beispiele.</div>
+            <div class="item-sub">Architektur, Builder, Wissen, Qualität, Routinen, Beispiele.</div>
           </div>
         </li>
       </ol>
@@ -1251,9 +1252,42 @@
 
 
   <!-- ============================================================
-       SLIDE 19 — FEATURE GRID · Knowledge Graph
+       SLIDE 19 — TEXT + IMAGE · Builder
        ============================================================ -->
-  <section data-label="19 Knowledge Graph">
+  <section data-label="19 Builder" class="slide-split">
+    <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
+
+    <div class="slide-header">
+      <p class="eyebrow">Architektur · Builder</p>
+      <h1 class="slide-title">Vom Prompt zur Werkbank.</h1>
+    </div>
+
+    <div class="split-grid">
+      <div class="split-text">
+        <p class="body-text">
+          <span class="colon">:</span>Klassische Skill-Dateien geben dem Modell Empfehlungen mit in den Prompt — „Wenn X, denk an Y." Das Modell entscheidet, ob es sich daran erinnert. Drift garantiert.
+        </p>
+        <p class="body-text">
+          omadia generiert aus deiner Skill-Definition <strong>echten TypeScript-Code</strong>: getypte Tools, die der Agent als deterministische Werkzeuge aufruft. Kein „denk dran" — sondern Call.
+        </p>
+      </div>
+
+      <div class="split-image">
+        <img src="assets/mood/omadia-two-door-builder.png" alt="" />
+      </div>
+    </div>
+
+    <div class="deck-footer">
+      <span>byte5 · omadia</span>
+      <span>03 · Unter der Haube</span>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SLIDE 20 — FEATURE GRID · Knowledge Graph
+       ============================================================ -->
+  <section data-label="20 Knowledge Graph">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1290,9 +1324,9 @@
 
 
   <!-- ============================================================
-       SLIDE 20 — FEATURE GRID · Kemia (Quality)
+       SLIDE 21 — FEATURE GRID · Kemia (Quality)
        ============================================================ -->
-  <section data-label="20 Kemia">
+  <section data-label="21 Kemia">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1329,9 +1363,9 @@
 
 
   <!-- ============================================================
-       SLIDE 21 — FEATURE GRID · Routinen + UI
+       SLIDE 22 — FEATURE GRID · Routinen + UI
        ============================================================ -->
-  <section data-label="21 Routinen + UI">
+  <section data-label="22 Routinen + UI">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1368,9 +1402,9 @@
 
 
   <!-- ============================================================
-       SLIDE 22 — CONTENT · Möglichkeiten
+       SLIDE 23 — CONTENT · Möglichkeiten
        ============================================================ -->
-  <section data-label="22 Möglichkeiten">
+  <section data-label="23 Möglichkeiten">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1394,9 +1428,9 @@
 
 
   <!-- ============================================================
-       SLIDE 23 — CLOSING · Contact
+       SLIDE 24 — CLOSING · Contact
        ============================================================ -->
-  <section data-label="23 Contact" class="slide-contact">
+  <section data-label="24 Contact" class="slide-contact">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="contact-stack">

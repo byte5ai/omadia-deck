@@ -629,20 +629,23 @@
   [
     "Cover — Begrüßung. Sag wer du bist, was omadia ist (in einem Satz), warum wir heute hier sind. 30 Sekunden, dann weiter.",
     "Agenda — kurz durchgehen. Fünf Abschnitte, ungefähr gleich lang. Fragen am Ende jedes Abschnitts.",
-    "Section divider Akt 01 — kurzer Atemzug. Bühne ist gesetzt: jetzt geht's um die Lage am Markt.",
+    "Section divider Teil 01 — kurzer Atemzug. Bühne ist gesetzt: jetzt geht's um die Lage am Markt.",
     "Lage — den magenta Colon-Lead vorlesen, dann die vier Bullets. Pointe: Es ist nicht die KI, es ist die Brücke. Diese Zeile zweimal hörbar machen.",
+    "Section divider Teil 02 — Atemzug. Bridge in den Wettbewerbs-Vergleich. Ein Satz: 'Schauen wir uns an, was es heute am Markt gibt.'",
     "Drei Welten — eine Karte nach der anderen. Keine Hassrede gegen die Wettbewerber — sachlich beobachtend. Pointe: jede Welt hat genau einen blinden Fleck.",
-    "Section divider Akt 02 — der Pivot. Hier wechselt die Tonalität von Diagnose zu Lösung.",
+    "Section divider Teil 03 — der Pivot. Hier wechselt die Tonalität von Diagnose zu Lösung.",
+    "Section divider Teil 04 — Bridge in die Versprechen-Übersicht. Ein Satz: 'Vier konkrete Versprechen — eines pro Bremse, die wir vorhin gesehen haben.'",
     "Vier Versprechen — Übersicht. Bullets vorlesen, NICHT vertiefen. Sagen: die nächsten Folien zeigen jedes einzeln, mit Mechanik.",
-    "Säule 1 Credentials · Überblick — Problem in einem Satz: ein Key für alle, jeder Agent kann alles. Lösung: Vault, scoped per Agent, Audit-Log.",
-    "Säule 1 Credentials · Mechanik — drei Bausteine: Vault (verschlüsselt), Scoping (per Agent), Audit-Log (jeder Call). Diese drei Wörter sind die Antwort auf jede Compliance-Frage.",
-    "Säule 2 Integrationen · Überblick — Problem: generische Webhooks sind kein Plan. Lösung: First-Class-Connectoren mit Auth, Schemas, Retries.",
-    "Säule 2 Integrationen · Connectoren — die Liste vorlesen. Hier ist der konkrete Beweis: das sind echte Systeme, keine Buzzwords. Letzter Bullet ist der wichtigste: dein eigenes System in unter 200 Zeilen.",
-    "Säule 3 Two-Door · Überblick — Problem: Code-Frameworks schließen Ops aus, No-Code-Tools schließen Devs aus. Lösung: beide Türen auf einer Plattform.",
-    "Säule 3 Two-Door · Mechanik — Operator-Tür, Developer-Tür, geteiltes Capability-Modell. Pointe: derselbe Agent kann von beiden Seiten gebaut und erweitert werden.",
-    "Säule 4 Privacy · Überblick — Problem: deine Daten landen unmaskiert beim Public-LLM. Lösung: reversible Tokenisierung. Nächste Folie: wie das genau funktioniert.",
-    "Säule 4 Privacy · Flow — vier Schritte: Anfrage, Maskieren, LLM, Rehydrieren. Den Vault auf Schritt 2 betonen — die Map liegt verschlüsselt bei dir, nicht beim Provider.",
+    "Versprechen 1 Credentials · Überblick — Problem in einem Satz: ein Key für alle, jeder Agent kann alles. Lösung: Vault, scoped per Agent, Audit-Log.",
+    "Versprechen 1 Credentials · Mechanik — drei Bausteine: Vault (verschlüsselt), Scoping (per Agent), Audit-Log (jeder Call). Diese drei Wörter sind die Antwort auf jede Compliance-Frage.",
+    "Versprechen 2 Integrationen · Überblick — Problem: generische Webhooks sind kein Plan. Lösung: First-Class-Connectoren mit Auth, Schemas, Retries.",
+    "Versprechen 2 Integrationen · Connectoren — die Liste vorlesen. Hier ist der konkrete Beweis: das sind echte Systeme, keine Buzzwords. Letzter Bullet ist der wichtigste: dein eigenes System in unter 200 Zeilen.",
+    "Versprechen 3 Two-Door · Überblick — Problem: Code-Frameworks schließen Ops aus, No-Code-Tools schließen Devs aus. Lösung: beide Türen auf einer Plattform.",
+    "Versprechen 3 Two-Door · Mechanik — Operator-Tür, Developer-Tür, geteiltes Capability-Modell. Pointe: derselbe Agent kann von beiden Seiten gebaut und erweitert werden.",
+    "Versprechen 4 Privacy · Überblick — Problem: deine Daten landen unmaskiert beim Public-LLM. Lösung: reversible Tokenisierung. Nächste Folie: wie das genau funktioniert.",
+    "Versprechen 4 Privacy · Flow — vier Schritte: Anfrage, Maskieren, LLM, Rehydrieren. Den Vault auf Schritt 2 betonen — die Map liegt verschlüsselt bei dir, nicht beim Provider.",
     "Big Stat — 0 Bytes. Die Zahl landen lassen. Zwei Sekunden Pause. Dann den Side-Text als Beweis.",
+    "Section divider Teil 05 — Zoom-out. Bridge in die Architektur-Tiefe. Ein Satz: 'Jetzt schauen wir uns an, wie omadia das eigentlich macht — und was du damit baust.'",
     "Agent-Anatomie — drei Bausteine: Capabilities (was er kann), Plugins (woran er hängt), Persona (wer er ist). Knappe Karten, jede mit einem Satz.",
     "Plugin-Struktur — drei Typen: Channels, Integrationen, Agent-Pakete. Beliebig kombinierbar. Plugin-SDK einmal erwähnen: in TypeScript schreibbar.",
     "Builder — DER architektonische USP. Klassische Skill-Dateien (Claude Skills, GPT Custom Instructions) sind Prompt-Empfehlungen: das Modell entscheidet, ob es sich erinnert. omadia generiert aus der Skill-Definition echten TypeScript-Code, der als getyptes Tool aufgerufen wird. Pointe: 'Vom Prompt zur Werkbank — vom Wunschdenken zum Werkzeug.'",
@@ -734,10 +737,10 @@
 
 
   <!-- ============================================================
-       SLIDE 03 — SECTION DIVIDER · Akt 01
+       SLIDE 03 — SECTION DIVIDER · Teil 01
        ============================================================ -->
-  <section data-label="03 Section divider · Akt 01" class="slide-section">
-    <p class="sec-eyebrow">Akt 01</p>
+  <section data-label="03 Section divider · Teil 01" class="slide-section">
+    <p class="sec-eyebrow">Teil 01</p>
     <div class="sec-row">
       <div class="sec-num">01</div>
       <div class="sec-body">
@@ -779,9 +782,26 @@
 
 
   <!-- ============================================================
-       SLIDE 05 — FEATURE GRID · Drei Welten
+       SLIDE 05 — SECTION DIVIDER · Teil 02 · Drei Welten
        ============================================================ -->
-  <section data-label="05 Feature grid · Drei Welten">
+  <section data-label="05 Section divider · Teil 02" class="slide-section">
+    <p class="sec-eyebrow">Teil 02</p>
+    <div class="sec-row">
+      <div class="sec-num">02</div>
+      <div class="sec-body">
+        <h2 class="sec-title">Drei Welten, drei Kompromisse.</h2>
+        <p class="sec-desc">
+          <span class="colon" style="color: var(--b5-magenta);">:</span>Code-Frameworks, SaaS-Copilots, No-Code-Tools. Drei Antworten am Markt — und keine löst das Mittelstands-Problem.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SLIDE 06 — FEATURE GRID · Drei Welten
+       ============================================================ -->
+  <section data-label="06 Feature grid · Drei Welten">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -818,12 +838,12 @@
 
 
   <!-- ============================================================
-       SLIDE 06 — SECTION DIVIDER · Akt 02
+       SLIDE 06 — SECTION DIVIDER · Teil 03
        ============================================================ -->
-  <section data-label="06 Section divider · Akt 02" class="slide-section">
-    <p class="sec-eyebrow">Akt 02</p>
+  <section data-label="07 Section divider · Teil 03" class="slide-section">
+    <p class="sec-eyebrow">Teil 03</p>
     <div class="sec-row">
-      <div class="sec-num">02</div>
+      <div class="sec-num">03</div>
       <div class="sec-body">
         <h2 class="sec-title">Unsere Antwort.</h2>
         <p class="sec-desc">
@@ -835,9 +855,26 @@
 
 
   <!-- ============================================================
-       SLIDE 07 — CONTENT · Vier Versprechen
+       SLIDE 08 — SECTION DIVIDER · Teil 04 · Vier Versprechen
        ============================================================ -->
-  <section data-label="07 Content · Vier Versprechen">
+  <section data-label="08 Section divider · Teil 04" class="slide-section">
+    <p class="sec-eyebrow">Teil 04</p>
+    <div class="sec-row">
+      <div class="sec-num">04</div>
+      <div class="sec-body">
+        <h2 class="sec-title">Vier Versprechen.</h2>
+        <p class="sec-desc">
+          <span class="colon" style="color: var(--b5-magenta);">:</span>Credentials, native Integrationen, Two-Door-Builder, Privacy by Tokenization. Vier Versprechen — eines pro Bremse.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SLIDE 09 — CONTENT · Vier Versprechen
+       ============================================================ -->
+  <section data-label="09 Content · Vier Versprechen">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -863,13 +900,13 @@
 
 
   <!-- ============================================================
-       SLIDE 08 — TEXT + IMAGE · Säule 01 · Credentials
+       SLIDE 08 — TEXT + IMAGE · Versprechen 01 · Credentials
        ============================================================ -->
-  <section data-label="08 Säule 01 · Credentials" class="slide-split">
+  <section data-label="10 Versprechen 01 · Credentials" class="slide-split">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
-      <p class="eyebrow">Säule 01 · Credentials</p>
+      <p class="eyebrow">Versprechen 01 · Credentials</p>
       <h1 class="slide-title">Jeder Agent sieht nur, was er sehen muss.</h1>
     </div>
 
@@ -896,13 +933,13 @@
 
 
   <!-- ============================================================
-       SLIDE 09 — FEATURE GRID · Säule 01 · Mechanik
+       SLIDE 09 — FEATURE GRID · Versprechen 01 · Mechanik
        ============================================================ -->
-  <section data-label="09 Säule 01 · Mechanik">
+  <section data-label="11 Versprechen 01 · Mechanik">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
-      <p class="eyebrow">Säule 01 · Mechanik</p>
+      <p class="eyebrow">Versprechen 01 · Mechanik</p>
       <h1 class="slide-title">Wie Credentials sicher bleiben.</h1>
     </div>
 
@@ -935,13 +972,13 @@
 
 
   <!-- ============================================================
-       SLIDE 10 — TEXT + IMAGE · Säule 02 · Integrationen
+       SLIDE 10 — TEXT + IMAGE · Versprechen 02 · Integrationen
        ============================================================ -->
-  <section data-label="10 Säule 02 · Integrationen" class="slide-split">
+  <section data-label="12 Versprechen 02 · Integrationen" class="slide-split">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
-      <p class="eyebrow">Säule 02 · Integrationen</p>
+      <p class="eyebrow">Versprechen 02 · Integrationen</p>
       <h1 class="slide-title">ERP, Confluence, M365 — fest verdrahtet.</h1>
     </div>
 
@@ -968,13 +1005,13 @@
 
 
   <!-- ============================================================
-       SLIDE 11 — CONTENT · Säule 02 · Native Connectoren
+       SLIDE 11 — CONTENT · Versprechen 02 · Native Connectoren
        ============================================================ -->
-  <section data-label="11 Säule 02 · Connectoren">
+  <section data-label="13 Versprechen 02 · Connectoren">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
-      <p class="eyebrow">Säule 02 · Native Connectoren</p>
+      <p class="eyebrow">Versprechen 02 · Native Connectoren</p>
       <h1 class="slide-title">Was heute verbunden ist.</h1>
       <p class="lead" style="margin-top: 8px;">
         <span class="colon">:</span>Echte Systeme, fest verdrahtet — nicht über generische Webhooks.
@@ -997,13 +1034,13 @@
 
 
   <!-- ============================================================
-       SLIDE 12 — TEXT + IMAGE · Säule 03 · Two-Door-Builder
+       SLIDE 12 — TEXT + IMAGE · Versprechen 03 · Two-Door-Builder
        ============================================================ -->
-  <section data-label="12 Säule 03 · Two-Door" class="slide-split">
+  <section data-label="14 Versprechen 03 · Two-Door" class="slide-split">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
-      <p class="eyebrow">Säule 03 · Two-Door-Builder</p>
+      <p class="eyebrow">Versprechen 03 · Two-Door-Builder</p>
       <h1 class="slide-title">Eine Plattform, zwei Türen.</h1>
     </div>
 
@@ -1030,13 +1067,13 @@
 
 
   <!-- ============================================================
-       SLIDE 13 — FEATURE GRID · Säule 03 · Mechanik
+       SLIDE 13 — FEATURE GRID · Versprechen 03 · Mechanik
        ============================================================ -->
-  <section data-label="13 Säule 03 · Mechanik">
+  <section data-label="15 Versprechen 03 · Mechanik">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
-      <p class="eyebrow">Säule 03 · Mechanik</p>
+      <p class="eyebrow">Versprechen 03 · Mechanik</p>
       <h1 class="slide-title">Zwei Türen, ein Capability-Modell.</h1>
     </div>
 
@@ -1069,13 +1106,13 @@
 
 
   <!-- ============================================================
-       SLIDE 14 — TEXT + IMAGE · Säule 04 · Privacy
+       SLIDE 14 — TEXT + IMAGE · Versprechen 04 · Privacy
        ============================================================ -->
-  <section data-label="14 Säule 04 · Privacy" class="slide-split">
+  <section data-label="16 Versprechen 04 · Privacy" class="slide-split">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
-      <p class="eyebrow">Säule 04 · Privacy by Tokenization</p>
+      <p class="eyebrow">Versprechen 04 · Privacy by Tokenization</p>
       <h1 class="slide-title">Deine Daten verlassen das Unternehmen nie unmaskiert.</h1>
     </div>
 
@@ -1102,13 +1139,13 @@
 
 
   <!-- ============================================================
-       SLIDE 15 — PROCESS · Säule 04 · Privacy-Flow
+       SLIDE 15 — PROCESS · Versprechen 04 · Privacy-Flow
        ============================================================ -->
-  <section data-label="15 Säule 04 · Flow">
+  <section data-label="17 Versprechen 04 · Flow">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
-      <p class="eyebrow">Säule 04 · Privacy-Flow</p>
+      <p class="eyebrow">Versprechen 04 · Privacy-Flow</p>
       <h1 class="slide-title">Wie ein Token reist.</h1>
     </div>
 
@@ -1145,7 +1182,7 @@
   <!-- ============================================================
        SLIDE 16 — BIG STAT · Privacy-Beweis
        ============================================================ -->
-  <section data-label="16 Big stat" class="slide-stat">
+  <section data-label="18 Big stat" class="slide-stat">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1174,9 +1211,26 @@
 
 
   <!-- ============================================================
-       SLIDE 17 — FEATURE GRID · Agent-Anatomie
+       SLIDE 19 — SECTION DIVIDER · Teil 05 · Unter der Haube
        ============================================================ -->
-  <section data-label="17 Agent-Anatomie">
+  <section data-label="19 Section divider · Teil 05" class="slide-section">
+    <p class="sec-eyebrow">Teil 05</p>
+    <div class="sec-row">
+      <div class="sec-num">05</div>
+      <div class="sec-body">
+        <h2 class="sec-title">Unter der Haube.</h2>
+        <p class="sec-desc">
+          <span class="colon" style="color: var(--b5-magenta);">:</span>Wie omadia Agenten bauen, wie sie ihr Wissen finden, wie sie sich melden — und was du damit konkret baust.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SLIDE 20 — FEATURE GRID · Agent-Anatomie
+       ============================================================ -->
+  <section data-label="20 Agent-Anatomie">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1215,7 +1269,7 @@
   <!-- ============================================================
        SLIDE 18 — FEATURE GRID · Plugin-Struktur
        ============================================================ -->
-  <section data-label="18 Plugin-Struktur">
+  <section data-label="21 Plugin-Struktur">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1254,7 +1308,7 @@
   <!-- ============================================================
        SLIDE 19 — TEXT + IMAGE · Builder
        ============================================================ -->
-  <section data-label="19 Builder" class="slide-split">
+  <section data-label="22 Builder" class="slide-split">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1287,7 +1341,7 @@
   <!-- ============================================================
        SLIDE 20 — FEATURE GRID · Knowledge Graph
        ============================================================ -->
-  <section data-label="20 Knowledge Graph">
+  <section data-label="23 Knowledge Graph">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1326,7 +1380,7 @@
   <!-- ============================================================
        SLIDE 21 — FEATURE GRID · Kemia (Quality)
        ============================================================ -->
-  <section data-label="21 Kemia">
+  <section data-label="24 Kemia">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1365,7 +1419,7 @@
   <!-- ============================================================
        SLIDE 22 — FEATURE GRID · Routinen + UI
        ============================================================ -->
-  <section data-label="22 Routinen + UI">
+  <section data-label="25 Routinen + UI">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1404,7 +1458,7 @@
   <!-- ============================================================
        SLIDE 23 — CONTENT · Möglichkeiten
        ============================================================ -->
-  <section data-label="23 Möglichkeiten">
+  <section data-label="26 Möglichkeiten">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="slide-header">
@@ -1430,7 +1484,7 @@
   <!-- ============================================================
        SLIDE 24 — CLOSING · Contact
        ============================================================ -->
-  <section data-label="24 Contact" class="slide-contact">
+  <section data-label="27 Contact" class="slide-contact">
     <img class="deck-logo" src="assets/byte5-logo-cyan.png" alt="byte5" />
 
     <div class="contact-stack">
